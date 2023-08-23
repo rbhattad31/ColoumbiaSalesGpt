@@ -14,6 +14,8 @@ from langchain.document_loaders import TextLoader
 from pydantic import BaseModel, Field, validator
 from loguru import logger
 from salesgpt.logger import time_logger
+from langchain.utilities import WikipediaAPIWrapper
+from langchain.tools import WikipediaQueryRun
 
 @time_logger
 def add_knowledge_base_products_to_cache(product_catalog: str = None):
@@ -22,12 +24,13 @@ def add_knowledge_base_products_to_cache(product_catalog: str = None):
         """
     # load the document and split it into chunks
     logger.info("Inside Add Knowledge Base")
-    loader = TextLoader(product_catalog,encoding='utf8')
+    loader = TextLoader(product_catalog, encoding='utf8')
     documents = loader.load()
     text_splitter = CharacterTextSplitter(chunk_size=100, chunk_overlap=0)
     docs = text_splitter.split_documents(documents)
-    #embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
-    embeddings = OpenAIEmbeddings(deployment="bradsol-embedding-test",chunk_size=1)
+
+    embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+    # embeddings = OpenAIEmbeddings(deployment="bradsol-embedding-test",chunk_size=1)
     db = FAISS.from_documents(docs, embeddings)
     db.save_local("faiss_index")
 
@@ -36,9 +39,9 @@ def setup_knowledge_base(product_catalog: str = None):
     """
     We assume that the product catalog is simply a text string.
     """
-    llm = AzureOpenAI(temperature=0.2, deployment_name="bradsol-openai-test", model_name="gpt-35-turbo")
-    #embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
-    embeddings = OpenAIEmbeddings(deployment="bradsol-embedding-test")
+    llm = AzureOpenAI(temperature=0.5, deployment_name="bradsol-openai-test", model_name="gpt-35-turbo")
+    embeddings = SentenceTransformerEmbeddings(model_name="all-MiniLM-L6-v2")
+    # embeddings = OpenAIEmbeddings(deployment="bradsol-embedding-test")
     db = FAISS.load_local("faiss_index", embeddings)
     knowledge_base = RetrievalQA.from_chain_type(
         llm=llm, chain_type="stuff", retriever=db.as_retriever()
@@ -48,22 +51,23 @@ def setup_knowledge_base(product_catalog: str = None):
 
 def get_tools(knowledge_base):
     # we only use one tool for now, but this is highly extensible!
-    search = SerpAPIWrapper()
+    # search = SerpAPIWrapper()
+    wikipedia = WikipediaQueryRun(api_wrapper=WikipediaAPIWrapper())
 
     tools = [
         Tool(
             name="ProductSearch",
             func=knowledge_base.run,
-            description="useful for when you need to answer questions about product information like price , colors, size and description",
+            description="useful for when you need to answer questions about product information like price , colors, size, description, image, photo and product image ",
         ),
+        # Tool(
+        #     name="ProductOrder",
+        #     func=search.run,
+        #     description="useful for when you need to answer questions about product image",
+        # ),
         Tool(
-            name="ProductOrder",
-            func=search.run,
-            description="useful for when you need to answer questions about product image",
-        ),
-        Tool(
-            name="Search",
-            func=search.run,
+            name="ProductReviews",
+            func=wikipedia.run,
             description="useful for when you need to answer questions about product reviews from google",
         ),
 

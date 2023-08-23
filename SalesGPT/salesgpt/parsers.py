@@ -9,7 +9,7 @@ from loguru import logger
 
 class SalesConvoOutputParser(AgentOutputParser):
     ai_prefix: str = "AI"  # change for salesperson_name
-    verbose: bool = False
+    verbose: bool = True
 
     def get_format_instructions(self) -> str:
         return FORMAT_INSTRUCTIONS

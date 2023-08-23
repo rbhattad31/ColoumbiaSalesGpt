@@ -1,5 +1,5 @@
 import argparse
-
+import re
 import os
 import json
 import streamlit as st
@@ -17,12 +17,13 @@ from salesgpt.tools import get_tools, setup_knowledge_base, add_knowledge_base_p
 from salesgpt.callbackhandler import MyCustomHandler
 
 if __name__ == "__main__":
-
     # import your OpenAI key (put in your .env file)
     # with open('.env','r') as f:
         # env_file = f.readlines()
     # envs_dict = {key.strip("'") :value.strip("\n") for key, value in [(i.split('=')) for i in env_file]}
     #print(envs_dict)
+    HUGGINGFACEHUB_API_TOKEN = "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"
+
     os.environ['OPENAI_API_VERSION'] = "2023-03-15-preview"
     if os.getenv("OPENAI_API_TYPE"):
         openai_api_type = os.getenv("OPENAI_API_TYPE")
@@ -77,8 +78,9 @@ if __name__ == "__main__":
     logger.add(logfile, colorize=True, enqueue=True)
     filehandler = FileCallbackHandler(logfile)
 
+
     #llm = ChatOpenAI(temperature=0.2)
-    llm = AzureChatOpenAI(temperature=0.6, deployment_name="bradsol-openai-test", model_name="gpt-35-turbo",callbacks=[customhandler,filehandler],request_timeout=10,max_retries=3)
+    llm = AzureChatOpenAI(temperature=0.2, deployment_name="bradsol-openai-test", model_name="gpt-35-turbo",callbacks=[customhandler, filehandler],request_timeout=10,max_retries=3)
     if not os.path.isdir('faiss_index'):
         add_knowledge_base_products_to_cache("sample_product_catalog.txt")
 
@@ -107,7 +109,6 @@ if __name__ == "__main__":
         print(f'Agent config {config}')
         sales_agent = SalesGPT.from_llm(llm, verbose=verbose, **config)
 
-
     st.header('Columbia SportsWear Chatbot')
     # History is empty then it needs to execute
 
@@ -117,6 +118,16 @@ if __name__ == "__main__":
         # init sales agent
         st.session_state.sales_agent.seed_agent()
         logger.info("Init Done")
+
+    with st.sidebar:
+        st.subheader("Sample Questions")
+        if "summary_ans" not in st.session_state:
+            st.session_state.sales_agent.human_step("Provide 5 sample questions regards Sportswear product in number order")
+            st.session_state.sales_agent.determine_conversation_stage()
+            st.session_state.sales_agent.step(summary=True)
+            st.session_state.summary_ans = str(st.session_state.chat_history[0]).split(':')[2]
+            st.session_state.chat_history = []
+        st.write(st.session_state.summary_ans)
 
     if human := st.chat_input():
         print("\n")

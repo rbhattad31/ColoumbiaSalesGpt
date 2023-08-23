@@ -7,6 +7,7 @@ Gender for this product: Men
 Category for this product: Jacket
 Colours available for this product: Deep Marine,Ancient Fossil, Collegiate Nav,Spicy, Light Raisin
 Rating for this product: 3
+photo : "https://w7.pngwing.com/pngs/578/800/png-transparent-leather-jacket-sleeve-jacket-textile-leather-black-thumbnail.png"
 Website link of the product: https://columbiasportswear.co.in/men/columbia-men-brown-hikebound-jacket-we6848-272
 
 
@@ -2600,7 +2601,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 Columbia Sportswear product 215: Columbia Unisex Black Escape Thrive Cap
 Description of the product: BUILT FOR SUMMER
  With sweat-activated cooling, breathable mesh that wicks away moisture, and UPF 50, this packable hat is ready to hit the trail.
- 
+
  Omni-Freeze ZERO sweat-activated super cooling
  Omni-Shield advanced repellency
  Omni-Shade UPF 50 sun protection
@@ -2743,7 +2744,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-men-r
 
 
 Columbia Sportswear product 226: Columbia Men Black Aspen Wool Crew (4 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Accessories
 Price for this Product: $2599
 Sizes Available for this product: OS
@@ -2755,7 +2756,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-mens-
 
 
 Columbia Sportswear product 227: Columbia Men Navy Aspen Wool Crew (4 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Accessories
 Price for this Product: $2599
 Sizes Available for this product: OS
@@ -2767,7 +2768,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-mens-
 
 
 Columbia Sportswear product 228: Columbia Men Grey Repreve Marl Stripe Wool Crew (2 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Made with repreve recycled fibermoisture wickingarch supportfull cushion
 Price for this Product: $2799
 Sizes Available for this product: OS
@@ -2779,7 +2780,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-mens-
 
 
 Columbia Sportswear product 229: Columbia Men Grey Repreve Marl Stripe Wool Crew (2 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: made with repreve recycled fibermoisture wickingarch supportfull cushion
 Price for this Product: $2799
 Sizes Available for this product: OS
@@ -2803,7 +2804,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-men-b
 
 
 Columbia Sportswear product 231: Columbia Men Black Moisture Control Basic Crew (4 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Accessories
 Price for this Product: $2199
 Sizes Available for this product: OS
@@ -2995,7 +2996,7 @@ Website link of the product: https://columbiasportswear.co.in/men/polar-powder-i
 
 
 Columbia Sportswear product 247: Columbia Unisex Black SOCKS UX 1P SKI OTC-SNOWDRF/L (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2499
 Sizes Available for this product: L
@@ -3007,7 +3008,7 @@ Website link of the product: https://columbiasportswear.co.in/men/socks-ux-1p-sk
 
 
 Columbia Sportswear product 248: Columbia Unisex Black SOCKS UX 1P SKI OTC-SNOWDRF/M (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2499
 Sizes Available for this product: M
@@ -3019,7 +3020,7 @@ Website link of the product: https://columbiasportswear.co.in/men/socks-ux-1p-sk
 
 
 Columbia Sportswear product 249: Columbia Unisex Brown SOCKS UX 1P HIK CRW-MD WT-SML (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2499
 Sizes Available for this product: S
@@ -3067,7 +3068,7 @@ Website link of the product: https://columbiasportswear.co.in/men/socks-ux-1p-sk
 
 
 Columbia Sportswear product 253: Columbia Unisex Black SOCKS UX 1P SKI OTC-ECO-LRG (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2499
 Sizes Available for this product: L
@@ -3079,7 +3080,7 @@ Website link of the product: https://columbiasportswear.co.in/men/socks-ux-1p-sk
 
 
 Columbia Sportswear product 254: Columbia Unisex Black SOCKS UX 1P SKI OTC-ECO-MED (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2499
 Sizes Available for this product: M
@@ -3091,7 +3092,7 @@ Website link of the product: https://columbiasportswear.co.in/men/socks-ux-1p-sk
 
 
 Columbia Sportswear product 255: Columbia Unisex Blue SOCKS UX 1P SNWBRD/MED-HNDSTH (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2899
 Sizes Available for this product: M
@@ -3103,7 +3104,7 @@ Website link of the product: https://columbiasportswear.co.in/men/socks-ux-1p-sn
 
 
 Columbia Sportswear product 256: Columbia Unisex Black SOCKS UX 1P SKI OTC/SMALL (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2899
 Sizes Available for this product: S
@@ -3115,7 +3116,7 @@ Website link of the product: https://columbiasportswear.co.in/men/socks-ux-1p-sk
 
 
 Columbia Sportswear product 257: Columbia Unisex Blue SOCKS UX 1P SKI OTC/LARGE (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2899
 Sizes Available for this product: L
@@ -3127,7 +3128,7 @@ Website link of the product: https://columbiasportswear.co.in/men/socks-ux-1p-sk
 
 
 Columbia Sportswear product 258: Columbia Unisex Black SOCKS UX 1P SKI OTC/MEDIUM (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2899
 Sizes Available for this product: M
@@ -4174,7 +4175,7 @@ Price for this Product: $1999
 Sizes Available for this product: OS
 Gender for this product: Men
 Category for this product: Hat
-Colours available for this product: 
+Colours available for this product:
 Rating for this product: 0
 Website link of the product: https://columbiasportswear.co.in/men/columbia-unisex-green-bora-bora-booney-cu9107-346
 
@@ -4264,7 +4265,7 @@ Website link of the product: https://columbiasportswear.co.in/men/trail-shaker-g
 
 
 Columbia Sportswear product 352: Columbia Men Brown SOCKS MN2P LOW CUT-BALPT (2 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Men
 Price for this Product: $1699
 Sizes Available for this product: M
@@ -4288,7 +4289,7 @@ Website link of the product: https://columbiasportswear.co.in/men/midweight-ther
 
 
 Columbia Sportswear product 354: Columbia Men Grey Midweight Thermal Basic (2 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Accessories
 Price for this Product: $1799
 Sizes Available for this product: OS
@@ -4560,7 +4561,7 @@ Website link of the product: https://columbiasportswear.co.in/men/whirlibird-iv-
 
 
 Columbia Sportswear product 376: Columbia Unisex Blue Intersection OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Omni-wick moisture wickingmerino wool blendtargetted cushioningarch support to fight fatiguemesh ventilationcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: L
@@ -4572,7 +4573,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 377: Columbia Unisex Blue Intersection OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Omni-wick moisture wickingmerino wool blendtargetted cushioningarch suppprt to fight fatiguemesh ventilationcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: S
@@ -4584,7 +4585,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 378: Columbia Unisex Black Thermolite ECO Mountain Ridge OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Thermolite Ecomade fiber for insulating warmthlycra adaptiv fiber for comfort top weltmesh ventilationarch support to fight fatiguetargtted cushioningcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: M
@@ -4596,7 +4597,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 379: Columbia Unisex Black Thermolite ECO Mountain Ridge OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Thermolite Ecomade fiber for insulating warmthlycra adaptiv fiber for comfort top weltmesh ventilationarch support to fight fatiguetargtted cushioningcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: XS
@@ -4608,7 +4609,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 380: Columbia Unisex Black Thermolite ECO Mountain Ridge OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Thermolite Ecomade fiber for insulating warmthlycra adaptiv fiber for comfort top weltmesh ventilationarch support to fight fatiguetargtted cushioningcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: L
@@ -4620,7 +4621,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 381: Columbia Unisex Black Thermolite ECO Mountain Ridge OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Thermolite Ecomade fiber for insulating warmthlycra adaptiv fiber for comfort top weltmesh ventilationarch support to fight fatiguetargtted cushioningcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: S
@@ -4632,7 +4633,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 382: Columbia Unisex Grey Hike Crew Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Merino wool blendcomfort top weltarch support to fight fatiguemesh zones for breathabilityheel power
 Price for this Product: $2899
 Sizes Available for this product: XL
@@ -4644,7 +4645,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 383: Columbia Unisex Blue Ski Slope OTC Ski Mediun Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Wool blendtargetted cushioningpower mesh arch support to fight fatiguemoisture wicking
 Price for this Product: $3299
 Sizes Available for this product: L
@@ -4656,7 +4657,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 384: Columbia Unisex Grey Ski Slope OTC Ski Mediun Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Wool blendtargetted cushioningpower mesh arch support to fight fatiguemoisture wicking
 Price for this Product: $3299
 Sizes Available for this product: M
@@ -4668,7 +4669,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 385: Columbia Unisex Grey Ski Slope OTC Ski Mediun Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Wool blendtargetted cushioningpower mesh arch support to fight fatiguemoisture wicking
 Price for this Product: $3299
 Sizes Available for this product: XS
@@ -4680,7 +4681,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 386: Columbia Unisex Grey Ski Slope OTC Ski Mediun Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Wool blendtargetted cushioningpower mesh arch support to fight fatiguemoisture wicking
 Price for this Product: $3299
 Sizes Available for this product: S
@@ -4692,7 +4693,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 387: Columbia Unisex Blue Intersection OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Omni-wick moisture wickingmerino wool blendtargetted cushioningarch support to fight fatiguemesh ventilationcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: M
@@ -4704,7 +4705,7 @@ Website link of the product: https://columbiasportswear.co.in/men/columbia-unise
 
 
 Columbia Sportswear product 388: Columbia Unisex Blue Intersection OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Omni-wick moisture wickingmerino wool blendtargetted cushioningarch support to fight fatiguemesh ventilationcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: XS
@@ -5691,13 +5692,13 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-wom
 Columbia Sportswear product 468: Columbia Women Black Wo Infinity Trail Glove
 Description of the product: WARM TO THE CORE
  Hike, chop wood, or apres-ski more comfortably with this puffy vest. A thermal-reflective lining and synthetic insulation seals in the warmth.
- 
+
  STAY DRY
  This vest can comfortably withstand a light snowfall or drizzle with a water-resistant outer layer.
- 
+
  FUNCTIONALITY
  Zip-up pockets and an interior security pocket means valuables can be easily stashed.
- 
+
  Omni-Heat™ reflective lining
  Thermarator™ Insulation
  Water resistant fabric
@@ -7106,7 +7107,7 @@ Columbia Sportswear product 584: Columbia Women  NEWTON RIDGE PLUS OMNI HEAT
 Description of the product: CLASSIC, WATERPROOF HIKERBuilt with leather and mesh-and made waterproof-this smooth leather hiking boot is inspired by classic mountaineering boots.SUPERIOR CUSHIONINGThe lightweight midsole is cushioned yet supportive to keep up with your most ambitious day trips.SURE FOOTEDResponsive, supportive cushioning and super-grippy rubber outsoles are geared for miles over rocks, grass, gravel, and roots.Omni-Tech™ waterproof breathable seam-sealed membrane bootie constructionTechlite™ lightweight midsole for long lasting comfort, superior cushioning, and high energy returnOmni-Grip™ non-marking traction rubberBreathable mesh textile, leather upperMetal hardwareWeight: 13.4 oz / 380g (Per Shoe, Size 7)Uses: HikingImportedThanks to HerThis gear was made in a factory supporting BSR's HERproject™, a multifaceted program that strives to empower women working in global supply chains through health, finance, and gender equality training.
 Features for this product: PU coated leather suede mesh upper with metal hardware. Techlite™ lightweight midsole for long lasting comfort superior cushioning and high energy return. Omni-Tech™ waterproof breathable construction. Omni-GRIP™ non-marking traction rubber. Outsol
 Price for this Product: $10999
-Sizes Available for this product: 
+Sizes Available for this product:
 Gender for this product: Women
 Category for this product: Footwear
 Colours available for this product: No Colours Found
@@ -7213,7 +7214,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 Columbia Sportswear product 593: Columbia Unisex Black Escape Thrive Cap
 Description of the product: BUILT FOR SUMMER
  With sweat-activated cooling, breathable mesh that wicks away moisture, and UPF 50, this packable hat is ready to hit the trail.
- 
+
  Omni-Freeze ZERO sweat-activated super cooling
  Omni-Shield advanced repellency
  Omni-Shade UPF 50 sun protection
@@ -7344,7 +7345,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 603: Columbia Women Black Moisture Control Stripe Crew (2 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Accessories
 Price for this Product: $1599
 Sizes Available for this product: OS
@@ -7356,7 +7357,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-wom
 
 
 Columbia Sportswear product 604: Columbia Women Black Medium Weight Snowfall Thermal (2 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Accessories
 Price for this Product: $1799
 Sizes Available for this product: OS
@@ -7368,7 +7369,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-wom
 
 
 Columbia Sportswear product 605: Columbia Women Blue Medium Weight Thermal (2 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Accessories
 Price for this Product: $1799
 Sizes Available for this product: OS
@@ -7380,7 +7381,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-wom
 
 
 Columbia Sportswear product 606: Columbia Women Blue Moisture Control Stripe Crew (2 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Accessories
 Price for this Product: $1599
 Sizes Available for this product: OS
@@ -7560,7 +7561,7 @@ Website link of the product: https://columbiasportswear.co.in/women/polar-powder
 
 
 Columbia Sportswear product 621: Columbia Unisex Black SOCKS UX 1P SKI OTC-SNOWDRF/L (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2499
 Sizes Available for this product: L
@@ -7572,7 +7573,7 @@ Website link of the product: https://columbiasportswear.co.in/women/socks-ux-1p-
 
 
 Columbia Sportswear product 622: Columbia Unisex Black SOCKS UX 1P SKI OTC-SNOWDRF/M (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2499
 Sizes Available for this product: M
@@ -7584,7 +7585,7 @@ Website link of the product: https://columbiasportswear.co.in/women/socks-ux-1p-
 
 
 Columbia Sportswear product 623: Columbia Unisex Brown SOCKS UX 1P HIK CRW-MD WT-SML (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2499
 Sizes Available for this product: S
@@ -7632,7 +7633,7 @@ Website link of the product: https://columbiasportswear.co.in/women/socks-ux-1p-
 
 
 Columbia Sportswear product 627: Columbia Unisex Black SOCKS UX 1P SKI OTC-ECO-LRG (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2499
 Sizes Available for this product: L
@@ -7644,7 +7645,7 @@ Website link of the product: https://columbiasportswear.co.in/women/socks-ux-1p-
 
 
 Columbia Sportswear product 628: Columbia Unisex Black SOCKS UX 1P SKI OTC-ECO-MED (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2499
 Sizes Available for this product: M
@@ -7656,7 +7657,7 @@ Website link of the product: https://columbiasportswear.co.in/women/socks-ux-1p-
 
 
 Columbia Sportswear product 629: Columbia Unisex Blue SOCKS UX 1P SNWBRD/MED-HNDSTH (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2899
 Sizes Available for this product: M
@@ -7668,7 +7669,7 @@ Website link of the product: https://columbiasportswear.co.in/women/socks-ux-1p-
 
 
 Columbia Sportswear product 630: Columbia Unisex Black SOCKS UX 1P SKI OTC/SMALL (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2899
 Sizes Available for this product: S
@@ -7680,7 +7681,7 @@ Website link of the product: https://columbiasportswear.co.in/women/socks-ux-1p-
 
 
 Columbia Sportswear product 631: Columbia Unisex Blue SOCKS UX 1P SKI OTC/LARGE (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2899
 Sizes Available for this product: L
@@ -7692,7 +7693,7 @@ Website link of the product: https://columbiasportswear.co.in/women/socks-ux-1p-
 
 
 Columbia Sportswear product 632: Columbia Unisex Black SOCKS UX 1P SKI OTC/MEDIUM (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Unisex
 Price for this Product: $2899
 Sizes Available for this product: M
@@ -7803,7 +7804,7 @@ Columbia Sportswear product 641: Columbia Women Red Bugaboo II Fleece Interchang
 Description of the product: 3 JACKETS IN 1A versatile and stylish 3-in-one jacket with a seam-sealed waterproof-breathable shell and a cozy high pile fleece thermal-reflective inner layer. Wear each separately or zipped together for full storm-fighting power. Thoughtful details include a removable adjustable hood, zippered hand pockets, and adjustable cuffs and hem. When icy winter winds blow, you'll be ready.Omni-Heat™ thermal reflectiveOmni-Tech™ waterproof/breathable critically seam sealedZip-in Interchange SystemRemovable adjustable storm hoodZippered hand pocketsAdjustable cuffsDrawcord adjustable hemCenter Back Length: 27"Uses: Hiking, Ski / SnowsportsImported
 Features for this product: Omni-Tech™ waterproof/breathable critically seam sealed Omni-Heat™ thermal reflective Zip-in and 3-point Interchange System Fleece liner Removable, adjustable storm hood Zippered hand pockets Adjustable cuffs Drawcord adjustable hem.
 Price for this Product: $9099
-Sizes Available for this product: 
+Sizes Available for this product:
 Gender for this product: Women
 Category for this product: Fleece Jackets
 Colours available for this product: No Colours Found
@@ -7887,7 +7888,7 @@ Columbia Sportswear product 648: Columbia Women Blue Windgates Hooded Jacket
 Description of the product: This water resistant women's hooded jacket with a built-in chin guard is the perfect companion for your next big adventure. Store your essentials in the interior security pocket and tweak the fit for your body with the adjustable drawcord hem.
 Features for this product: Omni-Heat™ thermal reflective Thermarator™ Insulation Water resistant fabric Interior security pocket Zippered hand pockets Drawcord adjustable hem.
 Price for this Product: $5999
-Sizes Available for this product: 
+Sizes Available for this product:
 Gender for this product: Women
 Category for this product: Jacket
 Colours available for this product: No Colours Found
@@ -7935,7 +7936,7 @@ Columbia Sportswear product 652: Columbia Women Red Zero Rules Short Sleeve Shir
 Description of the product: SUPER COOL TEEThis lightweight fishing shirt features our sweat-activated cooling technology, which reacts with your sweat to lower the material's temperature.STAY DRY AND PROTECTEDQuick-drying, moisture-wicking fabric, and built-in UPF 30 keep you focused on your cast, not on the heat.Omni-Freeze ZERO™ sweat-activated super coolingOmni-Wick technology actively breathes and pulls moisture away from your skinOmni-Shade™ UPF 30 sun protectionAntimicrobial treatment protects this product from bacterial growthUses: FishingImportedRecommended ProtectionThe Skin Cancer Foundation recommends this fabric as an effective UV protectant only for covered areas.Thanks to HerThis gear was made in a factory supporting BSR's HERproject™, a multifaceted program that strives to empower women working in global supply chains through health, finance, and gender equality training.
 Features for this product: https://cdn1.staticans.com/live/image/data/Columbia/12-july-2023/skincare.png
 Price for this Product: $1250
-Sizes Available for this product: 
+Sizes Available for this product:
 Gender for this product: Women
 Category for this product: short
 Colours available for this product: No Colours Found
@@ -8592,7 +8593,7 @@ Price for this Product: $1999
 Sizes Available for this product: OS
 Gender for this product: Women
 Category for this product: Hat
-Colours available for this product: 
+Colours available for this product:
 Rating for this product: 0
 Website link of the product: https://columbiasportswear.co.in/women/columbia-unisex-green-bora-bora-booney-cu9107-346
 
@@ -8816,7 +8817,7 @@ Website link of the product: https://columbiasportswear.co.in/women/cascade-rang
 
 
 Columbia Sportswear product 725: Columbia Unisex Black Thermolite ECO Mountain Ridge OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Thermolite Ecomade fiber for insulating warmthlycra adaptiv fiber for comfort top weltmesh ventilationarch support to fight fatiguetargtted cushioningcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: XS
@@ -8828,7 +8829,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 726: Columbia Unisex Black Thermolite ECO Mountain Ridge OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Thermolite Ecomade fiber for insulating warmthlycra adaptiv fiber for comfort top weltmesh ventilationarch support to fight fatiguetargtted cushioningcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: L
@@ -8840,7 +8841,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 727: Columbia Unisex Black Thermolite ECO Mountain Ridge OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Thermolite Ecomade fiber for insulating warmthlycra adaptiv fiber for comfort top weltmesh ventilationarch support to fight fatiguetargtted cushioningcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: S
@@ -8852,7 +8853,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 728: Columbia Women Black Medium Weight Snowfall Thermal (2 Pairs)
-Description of the product: 
+Description of the product:
 Features for this product: Accessories
 Price for this Product: $1799
 Sizes Available for this product: OS
@@ -8864,7 +8865,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-wom
 
 
 Columbia Sportswear product 729: Columbia Unisex Blue Intersection OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Omni-wick moisture wickingmerino wool blendtargetted cushioningarch support to fight fatiguemesh ventilationcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: XS
@@ -8876,7 +8877,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 730: Columbia Unisex Blue Intersection OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Omni-wick moisture wickingmerino wool blendtargetted cushioningarch support to fight fatiguemesh ventilationcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: L
@@ -8888,7 +8889,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 731: Columbia Unisex Blue Intersection OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Omni-wick moisture wickingmerino wool blendtargetted cushioningarch suppprt to fight fatiguemesh ventilationcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: S
@@ -8900,7 +8901,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 732: Columbia Unisex Black Thermolite ECO Mountain Ridge OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Thermolite Ecomade fiber for insulating warmthlycra adaptiv fiber for comfort top weltmesh ventilationarch support to fight fatiguetargtted cushioningcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: M
@@ -8912,7 +8913,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 733: Columbia Unisex Grey Ski Slope OTC Ski Mediun Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Wool blendtargetted cushioningpower mesh arch support to fight fatiguemoisture wicking
 Price for this Product: $3299
 Sizes Available for this product: M
@@ -8924,7 +8925,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 734: Columbia Unisex Grey Ski Slope OTC Ski Mediun Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Wool blendtargetted cushioningpower mesh arch support to fight fatiguemoisture wicking
 Price for this Product: $3299
 Sizes Available for this product: XS
@@ -8936,7 +8937,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 735: Columbia Unisex Grey Ski Slope OTC Ski Mediun Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Wool blendtargetted cushioningpower mesh arch support to fight fatiguemoisture wicking
 Price for this Product: $3299
 Sizes Available for this product: S
@@ -8948,7 +8949,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 736: Columbia Unisex Blue Intersection OTC Ski Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Omni-wick moisture wickingmerino wool blendtargetted cushioningarch support to fight fatiguemesh ventilationcontour ankle
 Price for this Product: $3299
 Sizes Available for this product: M
@@ -8996,7 +8997,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-men
 
 
 Columbia Sportswear product 740: Columbia Unisex Grey Hike Crew Medium Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Merino wool blendcomfort top weltarch support to fight fatiguemesh zones for breathabilityheel power
 Price for this Product: $2899
 Sizes Available for this product: XL
@@ -9008,7 +9009,7 @@ Website link of the product: https://columbiasportswear.co.in/women/columbia-uni
 
 
 Columbia Sportswear product 741: Columbia Unisex Blue Ski Slope OTC Ski Mediun Weight (1 Pair)
-Description of the product: 
+Description of the product:
 Features for this product: Wool blendtargetted cushioningpower mesh arch support to fight fatiguemoisture wicking
 Price for this Product: $3299
 Sizes Available for this product: L
