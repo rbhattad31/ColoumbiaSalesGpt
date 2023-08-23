@@ -1,9 +1,11 @@
+import re
 from copy import deepcopy
 from typing import Any, Dict, List, Union
 from loguru import logger
 import streamlit as st
 import uuid
 import json
+import os
 
 from langchain import LLMChain
 from langchain.agents import AgentExecutor, LLMSingleActionAgent, AgentType
@@ -26,7 +28,11 @@ from azure.cosmos import CosmosClient
 from streamlit.runtime.scriptrunner import add_script_run_ctx
 
 cosmosdb_endpoint = "https://brad-cosmos.documents.azure.com:443/"
-cosmosdb_key = st.secrets["cosmosdb_key"]
+
+if os.getenv("cosmosdb_key"):
+    cosmosdb_key = os.getenv("cosmosdb_key")
+else:
+    cosmosdb_key = st.secrets["cosmosdb_key"]
 cosmosdb_database_name = "RealEstate"
 cosmosdb_container_name = "UserChatHistory"
 
@@ -42,6 +48,10 @@ import streamlit as st
 
 from salesgpt.callbackhandler import MyCustomHandler
 
+def add_newlines_around_tag(text, tag="<tag>"):
+    pattern = rf'({re.escape(tag)})'
+    replaced_text = re.sub(pattern, r'\n\n\n\1\n', text)
+    return replaced_text
 
 class SalesGPT(Chain, BaseModel):
     """Controller model for the Sales Agent."""
@@ -105,18 +115,20 @@ class SalesGPT(Chain, BaseModel):
         # process human input
         human_input = "User: " + human_input + " <END_OF_TURN>"
         self.conversation_history.append(human_input)
+        print(self.conversation_history)
 
     @time_logger
     def step(
-        self, return_streaming_generator: bool = False, model_name="gpt-35-turbo"
-    ):
+        self, return_streaming_generator: bool = False, model_name="gpt-35-turbo", summary: bool = False ):
         """
         Args:
             return_streaming_generator (bool): whether or not return
             streaming generator object to manipulate streaming chunks in downstream applications.
         """
         if not return_streaming_generator:
-            self._call(inputs={})
+            print(self.conversation_history)
+            self._call(inputs={}, summary=summary)
+
         else:
             return self._streaming_generator(model_name=model_name)
 
@@ -169,7 +181,9 @@ class SalesGPT(Chain, BaseModel):
             model=model_name,
         )
 
-    def _call(self, inputs: Dict[str, Any]) -> None:
+    def _call(self, inputs: Dict[str, Any], summary) -> None:
+        print(summary)
+        print(self.conversation_history)
         """Run one step of the sales agent."""
 
         # Generate agent's utterance
@@ -235,12 +249,25 @@ class SalesGPT(Chain, BaseModel):
         if '<END_OF_TURN>' not in ai_message:
             ai_message += ' <END_OF_TURN>'
         self.conversation_history.append(ai_message)
-        #print(ai_message.replace("<END_OF_TURN>", ""))
-        for i, msg in enumerate(st.session_state.chat_history):
-            if i % 2 == 0:
-                st.chat_message('user').write(msg)
-            else:
-                st.chat_message('assistant').write(msg)
+        if summary is False:
+            # print(ai_message.replace("<END_OF_TURN>", ""))
+            for i, msg in enumerate(st.session_state.chat_history):
+                if i % 2 == 0:
+                    pattern = r'https?://[^\s]+'
+                    src_links = re.findall(pattern, msg)
+                    links = []
+                    for link in enumerate(src_links):
+                        links.append(link)
+
+                    msg = add_newlines_around_tag(msg)
+
+                    # msg = re.sub(pattern, "", msg)
+                    if links:
+                        st.chat_message('user').markdown(msg, unsafe_allow_html=True)
+                    else:
+                        st.chat_message('user').write(msg)
+                else:
+                    st.chat_message('assistant').write(msg)
         return {}
 
     @classmethod
