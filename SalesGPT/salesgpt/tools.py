@@ -4,6 +4,8 @@ from langchain.chains import RetrievalQA
 from langchain.chains.query_constructor.schema import AttributeInfo
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
+from langchain.utilities import GoogleSerperAPIWrapper
+from langchain.tools import DuckDuckGoSearchRun
 from langchain.llms import OpenAI
 from langchain.retrievers import SelfQueryRetriever
 from langchain.schema import Document
@@ -48,27 +50,42 @@ def setup_knowledge_base(product_catalog: str = None):
     )
     return knowledge_base
 
+# def duck_wrapper(input_text):
+#     search = DuckDuckGoSearchRun()
+#     search_results = search.run(f"site:https://columbiasportswear.co.in/ {input_text}")
+#     return search_results
+#
+# tool = [
+#     Tool(
+#         name="ProductReviews",
+#         func=duck_wrapper,
+#         description="useful for when you need to answer questions about product reviews.",
+#     ),
+# ]
+
 
 def get_tools(knowledge_base):
     # we only use one tool for now, but this is highly extensible!
     # search = SerpAPIWrapper()
-    wikipedia = WikipediaQueryRun(api_wrapper=WikipediaAPIWrapper())
+    # wikipedia = WikipediaQueryRun(api_wrapper=WikipediaAPIWrapper())
+    search = GoogleSerperAPIWrapper()
 
     tools = [
         Tool(
             name="ProductSearch",
             func=knowledge_base.run,
-            description="useful for when you need to answer questions about product information like price , colors, size, description, image, photo and product image ",
+            description="useful for when you need to answer questions about product information like price , colors, size, description, image, photo and product image",
         ),
         # Tool(
         #     name="ProductOrder",
         #     func=search.run,
         #     description="useful for when you need to answer questions about product image",
+        #
         # ),
         Tool(
             name="ProductReviews",
-            func=wikipedia.run,
-            description="useful for when you need to answer questions about product reviews from google",
+            func=search.run,
+            description="useful for when you need to answer questions about product reviews from columbia sportswear browser.",
         ),
 
     ]

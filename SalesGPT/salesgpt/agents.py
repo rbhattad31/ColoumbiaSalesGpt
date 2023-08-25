@@ -34,7 +34,7 @@ if os.getenv("cosmosdb_key"):
 else:
     cosmosdb_key = st.secrets["cosmosdb_key"]
 cosmosdb_database_name = "RealEstate"
-cosmosdb_container_name = "UserChatHistory"
+cosmosdb_container_name = "ColumbiaChatHistory"
 
 client = CosmosClient(cosmosdb_endpoint, cosmosdb_key)
 
