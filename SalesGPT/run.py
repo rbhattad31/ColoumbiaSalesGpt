@@ -24,6 +24,8 @@ if __name__ == "__main__":
     #print(envs_dict)
     HUGGINGFACEHUB_API_TOKEN = "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"
 
+    os.environ["SERPER_API_KEY"] = "c8d47f5134a6b1fafd204e5a5a93808576fa914a"
+
     os.environ['OPENAI_API_VERSION'] = "2023-03-15-preview"
     if os.getenv("OPENAI_API_TYPE"):
         openai_api_type = os.getenv("OPENAI_API_TYPE")
@@ -78,8 +80,7 @@ if __name__ == "__main__":
     logger.add(logfile, colorize=True, enqueue=True)
     filehandler = FileCallbackHandler(logfile)
 
-
-    #llm = ChatOpenAI(temperature=0.2)
+    # llm = ChatOpenAI(temperature=0.2)
     llm = AzureChatOpenAI(temperature=0.2, deployment_name="bradsol-openai-test", model_name="gpt-35-turbo",callbacks=[customhandler, filehandler],request_timeout=10,max_retries=3)
     if not os.path.isdir('faiss_index'):
         add_knowledge_base_products_to_cache("sample_product_catalog.txt")
