@@ -5,7 +5,6 @@ from langchain.chains.query_constructor.schema import AttributeInfo
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.embeddings.sentence_transformer import SentenceTransformerEmbeddings
 from langchain.utilities import GoogleSerperAPIWrapper
-from langchain.tools import DuckDuckGoSearchRun
 from langchain.llms import OpenAI
 from langchain.retrievers import SelfQueryRetriever
 from langchain.schema import Document
