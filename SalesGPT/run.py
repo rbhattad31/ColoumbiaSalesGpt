@@ -81,7 +81,7 @@ if __name__ == "__main__":
     filehandler = FileCallbackHandler(logfile)
 
     # llm = ChatOpenAI(temperature=0.2)
-    llm = AzureChatOpenAI(temperature=0.2, deployment_name="bradsol-openai-test", model_name="gpt-35-turbo",callbacks=[customhandler, filehandler],request_timeout=10,max_retries=3)
+    llm = AzureChatOpenAI(temperature=0.2, deployment_name="qnagpt5", model_name="gpt-35-turbo",callbacks=[customhandler, filehandler],request_timeout=10,max_retries=3)
     if not os.path.isdir('faiss_index'):
         add_knowledge_base_products_to_cache("sample_product_catalog.txt")
 
