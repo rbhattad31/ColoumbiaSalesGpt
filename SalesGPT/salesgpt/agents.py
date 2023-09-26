@@ -36,13 +36,13 @@ else:
 cosmosdb_database_name = "RealEstate"
 cosmosdb_container_name = "ColumbiaChatHistory"
 
-client = CosmosClient(cosmosdb_endpoint, cosmosdb_key)
+# client = CosmosClient(cosmosdb_endpoint, cosmosdb_key)
 
 # Get database reference
-database = client.get_database_client(cosmosdb_database_name)
+# database = client.get_database_client(cosmosdb_database_name)
 
 # Get container reference
-container = database.get_container_client(cosmosdb_container_name)
+# container = database.get_container_client(cosmosdb_container_name)
 
 import streamlit as st
 
